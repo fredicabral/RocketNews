@@ -1,0 +1,136 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+body {
+    background: linear-gradient(to bottom, #121214 33%, #6600cc 100%);
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 45vw;
+    padding: 0px 36px;
+    z-index: 2;
+}
+
+.logo {
+    width: 389px;
+    height: 94px;
+    padding: 50px 0px 70px 0px;
+}
+
+.info p {
+    line-height:0.2em;
+}
+
+.titulo {
+    color: #04D361;
+    font-weight: bold;
+}
+
+.newsletter {
+    width: 80vw;
+    padding: 50px 0px;
+}
+
+.newsletter form {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0px 15px 0px 0px;
+    margin: 0;
+    width: 850px;
+}
+
+.newsletter label {
+    font-weight: 700;
+    color: #A8A8A8;
+}
+
+.campo_Input {
+    margin: 17px 0px;
+    width: 790px;
+    height: 48px;
+    padding: 0px  5px;
+    border:none;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.campo_Input:focus-visible {
+    border: 3px solid #6600cc;
+    transition: 0.5s;
+    outline: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.seta {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.botao_enviar {
+    background-color: #6600cc;
+    width: 55px;
+    height: 48px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.botao_enviar:hover {
+    background-color: #04D361;
+    transition: 0.5s;
+}
+
+
+.icon-send {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.aside {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../assets/read_news.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(-250px);
+}
